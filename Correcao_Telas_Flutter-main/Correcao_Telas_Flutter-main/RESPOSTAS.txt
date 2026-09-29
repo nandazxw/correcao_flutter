@@ -1,0 +1,27 @@
+NOME DO ALUNO:
+
+TURMA: 2º C
+
+QUANTIDADE DE ERROS ENCONTRADOS:
+
+
+ERRO 1:
+Arquivo:cursos_screen.dart
+Problema encontrado:ausencia de aspas ao passar um valor no 'text'
+Correção realizada:colocar as aspas
+
+ERRO 2:
+Arquivo:home_screen.dart
+Problema encontrado:presença de aspas no tamanho do fontsize. falta do borderradius.circular no parametro borderradius.falta dos parenteses ao final de perfilscreen.
+Correção realizada:tirar aspas.passar o borderradius.circular no parametro borderradius.adicionar parenteses.
+
+ERRO 3:
+Arquivo:login_screen.dart
+Problema encontrado:falta do "text" no parametro "title".o numero 20 passado diretamente no padding.navigator push sendo passado dentro do onpressed, onde o onpressed espera uma função anonima para ser executada.
+Correção realizada:passar o text dentro do parametro title e a adição das aspas e parenteses no texto.adicionar o edgeinsets.all dentro do padding.passar o navigator push dentro das chaves e nao diretamente no onepressed.
+
+Continue registrando os demais erros encontrados.
+ERRO 4:
+Arquivo:perfil_screen.dart
+Problema encontrado:numero sendo passado diretamente no margin
+Correção realizada:passar o edgeinsets dentro do margin
